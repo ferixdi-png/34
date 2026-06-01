@@ -284,6 +284,13 @@ h3 {
   margin-bottom: 20px;
 }
 
+.section-note {
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 12px 0 0;
+  max-width: 760px;
+}
+
 .quality-list {
   display: grid;
   gap: 16px;
