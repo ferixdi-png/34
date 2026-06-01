@@ -82,7 +82,7 @@ const dimensions = {
 };
 
 const questions = [
-  { area: "energy", positive: true, text: "Я выдерживаю день владельца так, чтобы к вечеру не ненавидеть клиентов, команду и собственный бизнес." },
+  { area: "energy", positive: true, text: "Я выдерживаю день в бизнесе так, чтобы к вечеру не ненавидеть клиентов, задачи и всех живых людей." },
   { area: "energy", positive: false, text: "После плотной недели я становлюсь не стратегом, а раздраженным диспетчером пожаров." },
   { area: "energy", positive: true, text: "После запуска, просадки или конфликта я умею быстро вернуть себя в рабочую форму, а не выпадать из игры." },
   { area: "energy", positive: false, text: "Я продолжаю принимать решения, когда уже очевидно: сейчас мной рулит усталость, а не голова." },
@@ -95,14 +95,14 @@ const questions = [
 
   { area: "discipline", positive: true, text: "Я режу красивую занятость, если она не двигает деньги, продукт, команду или рынок." },
   { area: "discipline", positive: false, text: "Я могу неделю “готовиться к продажам”, не сделав ни одного действия, которое может принести деньги." },
-  { area: "discipline", positive: true, text: "У меня есть цифры, которые я смотрю как владелец, а не как человек, надеющийся на чудо." },
+  { area: "discipline", positive: true, text: "У меня есть цифры, на которые я смотрю без магического мышления и надежды “как-нибудь вывезем”." },
   { area: "discipline", positive: false, text: "Продажи становятся срочными только тогда, когда касса уже дышит мне в затылок." },
-  { area: "discipline", positive: true, text: "Я делаю неприятные действия владельца: звоню, считаю, отказываю, требую, закрываю хвосты." },
+  { area: "discipline", positive: true, text: "Я делаю неприятные действия дела: звоню, считаю, отказываю, требую, закрываю хвосты." },
   { area: "discipline", positive: false, text: "Я распыляюсь так уверенно, будто бизнес растет от количества открытых направлений." },
   { area: "discipline", positive: true, text: "Цель по выручке для меня раскладывается на лиды, конверсию, средний чек и ежедневные действия." },
   { area: "discipline", positive: false, text: "В моем бизнесе есть мертвые хвосты, которые уже стали мебелью, и я делаю вид, что это нормально." },
   { area: "discipline", positive: true, text: "Неделю я оцениваю не по усталости, а по фактам: заявки, сделки, деньги, отгрузки, решения." },
-  { area: "discipline", positive: false, text: "Как владелец я иногда прощаю себе то, за что уволил бы подрядчика." },
+  { area: "discipline", positive: false, text: "Я иногда прощаю себе такой бардак, за который сам бы раскритиковал подрядчика." },
 
   { area: "thinking", positive: true, text: "Когда продажи падают, я разбираю воронку, оффер и канал, а не устраиваю охоту на виноватых." },
   { area: "thinking", positive: false, text: "Под давлением кассы я могу купить себе спокойствие решением, которое завтра станет новой проблемой." },
@@ -110,7 +110,7 @@ const questions = [
   { area: "thinking", positive: false, text: "Мне тяжело признать, что рынок не обязан любить продукт только потому, что я в него вложился." },
   { area: "thinking", positive: true, text: "Если цифры хоронят гипотезу, я закрываю ее, а не строю мавзолей из оправданий." },
   { area: "thinking", positive: false, text: "Я могу назвать пожар стратегией, если очень не хочется признать хаос." },
-  { area: "thinking", positive: true, text: "В важном решении я одновременно вижу владельца, клиента, команду, кассу и репутацию." },
+  { area: "thinking", positive: true, text: "В важном решении я одновременно вижу клиента, команду, деньги, сроки и репутацию, а не только свою тревогу." },
   { area: "thinking", positive: false, text: "Я могу утонуть в аналитике, чтобы не сделать один неприятный, но очевидный шаг." },
   { area: "thinking", positive: true, text: "Я задаю себе вопрос: это решение для бизнеса или броня для моего эго." },
   { area: "thinking", positive: false, text: "Чужой уверенный голос иногда перебивает мои собственные цифры." },
@@ -122,9 +122,9 @@ const questions = [
   { area: "risk", positive: true, text: "Я выпускаю минимально сильный оффер, если он уже решает боль, а не жду музейного идеала." },
   { area: "risk", positive: false, text: "Старый канал продаж может быть дырявым, но я держусь за него, потому что новый потребует смелости." },
   { area: "risk", positive: true, text: "Я предпочитаю быстрый тест на живых деньгах фантазиям в таблице и голове." },
-  { area: "risk", positive: false, text: "Несколько отказов подряд могут заставить меня усомниться не в оффере, а в себе как владельце." },
+  { area: "risk", positive: false, text: "Несколько отказов подряд могут заставить меня усомниться не в оффере, а в себе как в человеке дела." },
   { area: "risk", positive: true, text: "Я ставлю эксперимент так, чтобы риск был ограничен, а вывод нельзя было спрятать." },
-  { area: "risk", positive: false, text: "Я жду идеального момента, хотя бизнесу нужен не момент, а владелец с решением." },
+  { area: "risk", positive: false, text: "Я жду идеального момента, хотя делу нужен не момент, а человек, который уже решился." },
 
   { area: "money", positive: true, text: "Я знаю, какой продукт кормит бизнес чистой прибылью, а какой просто красиво шумит выручкой." },
   { area: "money", positive: false, text: "Клиент просит скидку — и я могу предать маржу быстрее, чем объяснить ценность." },
@@ -144,7 +144,7 @@ const questions = [
   { area: "leadership", positive: true, text: "Я провожу неприятный разговор до того, как чужой косяк становится корпоративной традицией." },
   { area: "leadership", positive: false, text: "Я терплю слабого партнера или подрядчика дольше, чем это может оплатить бизнес." },
   { area: "leadership", positive: true, text: "Я строю систему: роли, правила, ритм, контроль, а не героический цирк на себе." },
-  { area: "leadership", positive: false, text: "Ответственность за людей иногда делает меня мягким там, где владелец обязан быть ясным." },
+  { area: "leadership", positive: false, text: "Ответственность за людей иногда делает меня мягким там, где ситуация требует ясности, а не доброты." },
   { area: "leadership", positive: true, text: "Я могу признать: проблема не в “тупом сотруднике”, а в моей кривой постановке задачи." },
   { area: "leadership", positive: false, text: "Мне легче молча переделать чужой мусор, чем вернуть его с требованием стандарта." },
 
@@ -159,15 +159,15 @@ const questions = [
   { area: "communication", positive: true, text: "Моя обратная связь звучит как стандарт и следующий шаг, а не как эмоциональная расправа." },
   { area: "communication", positive: false, text: "Я хочу, чтобы команда читала мысли, которые я поленился превратить в правила." },
 
-  { area: "emotion", positive: true, text: "Я отличаю голос владельца от голоса испуганного человека, который хочет спрятаться." },
+  { area: "emotion", positive: true, text: "Я отличаю голос взрослого решения от голоса испуганного человека, который хочет спрятаться." },
   { area: "emotion", positive: false, text: "Один резкий комментарий клиента может украсть у меня день дороже, чем сама претензия." },
   { area: "emotion", positive: true, text: "Перед жестким сообщением я умею остановить палец, пока он не устроил пожар." },
   { area: "emotion", positive: false, text: "Когда сделка срывается, я быстрее ищу виноватого, чем разбираю причину." },
   { area: "emotion", positive: true, text: "После отказа или возврата я возвращаюсь к работе без внутреннего сериала на три сезона." },
   { area: "emotion", positive: false, text: "Я коплю раздражение, а потом выдаю команде не обратную связь, а накопленный яд." },
-  { area: "emotion", positive: true, text: "Я знаю свои кнопки владельца: скидки, критика, медлительность, просрочки, потеря контроля." },
+  { area: "emotion", positive: true, text: "Я знаю свои кнопки в работе: скидки, критика, медлительность, просрочки, потеря контроля." },
   { area: "emotion", positive: false, text: "Тревога о деньгах иногда выключает именно ту часть меня, которая должна считать и действовать." },
-  { area: "emotion", positive: true, text: "Я могу попросить совет, не превращая это в доказательство, что я слабый предприниматель." },
+  { area: "emotion", positive: true, text: "Я могу попросить совет, не превращая это в доказательство, что я слабый или не на своем месте." },
   { area: "emotion", positive: false, text: "Мой страх умеет надевать костюм стратегии, чтобы я не шел к рынку, цифрам или разговору." },
 
   { area: "values", positive: true, text: "Я понимаю, какие деньги не беру, потому что они потом обойдутся дороже репутации и нервов." },
@@ -190,7 +190,7 @@ const questions = [
   { area: "entrepreneurship", positive: true, text: "Я знаю, какой канал дает качественного клиента, а какой просто кормит меня шумом заявок." },
   { area: "entrepreneurship", positive: false, text: "Я прячусь в операционке, потому что добывать клиентов снаружи страшнее, чем быть занятым внутри." },
   { area: "entrepreneurship", positive: true, text: "Когда рынок молчит, я меняю оффер, аудиторию, креатив или канал, а не читаю морали клиентам." },
-  { area: "entrepreneurship", positive: false, text: "Без ясного плана продаж я тревожусь как владелец, но действую как человек, ждущий погоды." }
+  { area: "entrepreneurship", positive: false, text: "Без ясного плана продаж я тревожусь как ответственный человек, но действую как тот, кто ждет погоды." }
 ];
 
 const qualityDefinitions = {
@@ -442,7 +442,7 @@ const businessDefinitions = {
     title: "Деньги",
     indexes: [42, 46, 47, 49, 92, 96, 99],
     weights: { money: 0.7, thinking: 0.2, discipline: 0.1 },
-    lowText: "Финансы могут быть зоной тумана: выручка есть, движения много, но чистая прибыль, касса, запас прочности и стоимость усилий видны плохо. Это опасная слепая зона владельца.",
+    lowText: "Финансы могут быть зоной тумана: выручка есть, движения много, но чистая прибыль, касса, запас прочности и стоимость усилий видны плохо. Это опасная слепая зона человека в бизнесе.",
     midText: "Вы уже смотрите на деньги, но финансовая картина может быть нерегулярной. Есть риск путать оборот с результатом, а занятость с прибыльностью.",
     highText: "Вы умеете смотреть на бизнес через цифры, а не через настроение. Это помогает принимать жесткие решения раньше, чем касса начнет кричать.",
     action: "Ведите еженедельный лист: выручка, расходы, чистая прибыль, маржа ключевого продукта, запас месяцев, главный вывод."
@@ -460,7 +460,7 @@ const businessDefinitions = {
     title: "Операционка",
     indexes: [10, 12, 13, 14, 15, 16, 18, 19, 93],
     weights: { discipline: 0.55, thinking: 0.25, entrepreneurship: 0.2 },
-    lowText: "Операционка может съедать владельца: задач много, закрытых циклов мало, приоритет плавает, а бизнес копит незавершенность. Это тормозит рост сильнее, чем кажется.",
+    lowText: "Операционка может съедать человека целиком: задач много, закрытых циклов мало, приоритет плавает, а бизнес копит незавершенность. Это тормозит рост сильнее, чем кажется.",
     midText: "Вы умеете собираться, но фокус еще может прыгать между срочным, интересным и прибыльным. Нужен жестче выбранный рычаг недели.",
     highText: "Вы способны превращать приоритет в измеримое действие и доводить до результата. Это делает бизнес управляемым, а не просто шумным.",
     action: "На неделю выберите один рычаг: продажи, продукт, трафик, команда или деньги. Все задачи без связи с рычагом режьте."
@@ -489,6 +489,7 @@ const questionText = document.querySelector("#question-text");
 const questionArea = document.querySelector("#question-area");
 const progressBar = document.querySelector("#progress-bar");
 const backButton = document.querySelector("#back-button");
+const livePulse = document.querySelector("#live-pulse");
 const liveScales = document.querySelector("#live-scales");
 const spectrumList = document.querySelector("#spectrum-list");
 const qualityList = document.querySelector("#quality-list");
@@ -709,7 +710,7 @@ function getLiveBusinessScores() {
 function renderLiveScales() {
   if (!liveScales) return;
 
-  liveScales.innerHTML = Object.entries(businessDefinitions).map(([key, item]) => {
+  const scales = Object.entries(businessDefinitions).map(([key, item]) => {
     const live = calculateLiveDirectScore(item.indexes);
     const previous = liveScores[key];
     const trend = previous === undefined || live.answered === 0
@@ -720,8 +721,33 @@ function renderLiveScales() {
           ? "down"
           : "neutral";
 
-    return renderLiveScale(item.title, live, trend);
-  }).join("");
+    return { key, title: item.title, live, trend, previous };
+  });
+
+  renderLivePulse(scales);
+  liveScales.innerHTML = scales.map((item) => renderLiveScale(item.title, item.live, item.trend)).join("");
+}
+
+function renderLivePulse(scales) {
+  if (!livePulse) return;
+
+  const moved = scales.filter((item) => item.previous !== undefined && item.live.answered > 0 && item.live.score !== item.previous);
+  livePulse.classList.remove("up", "down");
+
+  if (!current && !answers.some((answer) => answer !== undefined)) {
+    livePulse.textContent = "Первый ответ сразу сдвинет одну из зон.";
+    return;
+  }
+
+  if (!moved.length) {
+    livePulse.textContent = "Этот ответ больше уточнил портрет, чем сдвинул бизнес-шкалы.";
+    return;
+  }
+
+  const strongest = moved.sort((a, b) => Math.abs(b.live.score - b.previous) - Math.abs(a.live.score - a.previous))[0];
+  const direction = strongest.live.score > strongest.previous ? "подросла" : "просела";
+  livePulse.classList.add(strongest.live.score > strongest.previous ? "up" : "down");
+  livePulse.textContent = `Последний ответ: ${strongest.title.toLowerCase()} ${direction} до ${strongest.live.score}%.`;
 }
 
 function renderLiveScale(title, live, trend) {
