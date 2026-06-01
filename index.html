@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Карта человека — 100 вопросов</title>
+    <meta
+      name="description"
+      content="Бесплатный опрос из 100 простых вопросов Да/Нет, который собирает личную и предпринимательскую карту человека."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section id="start-screen" class="hero card">
+        <p class="eyebrow">Бесплатный самотест</p>
+        <h1>Карта человека по 100 простым вопросам</h1>
+        <p class="lead">
+          Ответьте «да» или «нет», а в конце получите объемный профиль:
+          энергия, мышление, деньги, риск, лидерство, дисциплина, коммуникация,
+          эмоции, ценности и предпринимательский потенциал.
+        </p>
+        <div class="hero-grid" aria-label="Что покажет тест">
+          <div>
+            <strong>10 спектров</strong>
+            <span>не ярлыки, а направления развития</span>
+          </div>
+          <div>
+            <strong>100 вопросов</strong>
+            <span>без сложных шкал и регистрации</span>
+          </div>
+          <div>
+            <strong>1 карта</strong>
+            <span>сильные стороны, риски и рекомендации</span>
+          </div>
+        </div>
+        <button id="start-button" class="primary">Начать опрос</button>
+        <p class="note">
+          Это не медицинская диагностика и не замена работе со специалистом.
+          Это инструмент для честной саморефлексии.
+        </p>
+      </section>
+
+      <section id="quiz-screen" class="card quiz hidden" aria-live="polite">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Вопрос <span id="question-number">1</span> из 100</p>
+            <h2 id="question-text"></h2>
+          </div>
+          <span id="question-area" class="pill"></span>
+        </div>
+        <div class="progress" aria-hidden="true">
+          <div id="progress-bar"></div>
+        </div>
+        <div class="answer-row">
+          <button class="answer yes" data-answer="yes">Да</button>
+          <button class="answer no" data-answer="no">Нет</button>
+        </div>
+        <div class="nav-row">
+          <button id="back-button" class="ghost">Назад</button>
+          <button id="restart-button" class="ghost">Начать заново</button>
+        </div>
+      </section>
+
+      <section id="result-screen" class="result hidden">
+        <div class="card result-head">
+          <p class="eyebrow">Ваша карта</p>
+          <h2 id="result-title"></h2>
+          <p id="result-summary" class="lead"></p>
+          <div class="result-actions">
+            <button id="copy-button" class="primary">Скопировать результат</button>
+            <button id="again-button" class="ghost">Пройти заново</button>
+          </div>
+        </div>
+
+        <div id="spectrum-list" class="spectrum-list"></div>
+
+        <div class="card">
+          <h3>Главные выводы</h3>
+          <div id="insights" class="insights"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
