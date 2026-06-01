@@ -423,6 +423,7 @@ let current = 0;
 let answers = [];
 
 const startScreen = document.querySelector("#start-screen");
+const introScreen = document.querySelector("#intro-screen");
 const quizScreen = document.querySelector("#quiz-screen");
 const resultScreen = document.querySelector("#result-screen");
 const questionNumber = document.querySelector("#question-number");
@@ -437,7 +438,9 @@ const resultTitle = document.querySelector("#result-title");
 const resultSummary = document.querySelector("#result-summary");
 const deepPortrait = document.querySelector("#deep-portrait");
 
-document.querySelector("#start-button").addEventListener("click", startQuiz);
+document.querySelector("#start-button").addEventListener("click", showIntro);
+document.querySelector("#begin-quiz-button").addEventListener("click", startQuiz);
+document.querySelector("#intro-back-button").addEventListener("click", showStart);
 document.querySelector("#restart-button").addEventListener("click", resetQuiz);
 document.querySelector("#again-button").addEventListener("click", resetQuiz);
 document.querySelector("#copy-button").addEventListener("click", copyResult);
@@ -447,8 +450,23 @@ document.querySelectorAll(".answer").forEach((button) => {
   button.addEventListener("click", () => answerQuestion(button.dataset.answer === "yes"));
 });
 
+function showIntro() {
+  startScreen.classList.add("hidden");
+  quizScreen.classList.add("hidden");
+  resultScreen.classList.add("hidden");
+  introScreen.classList.remove("hidden");
+}
+
+function showStart() {
+  introScreen.classList.add("hidden");
+  quizScreen.classList.add("hidden");
+  resultScreen.classList.add("hidden");
+  startScreen.classList.remove("hidden");
+}
+
 function startQuiz() {
   startScreen.classList.add("hidden");
+  introScreen.classList.add("hidden");
   resultScreen.classList.add("hidden");
   quizScreen.classList.remove("hidden");
   renderQuestion();
@@ -464,7 +482,7 @@ function renderQuestion() {
   const question = questions[current];
   questionNumber.textContent = String(current + 1);
   questionText.textContent = question.text;
-  questionArea.textContent = dimensions[question.area].title;
+  questionArea.textContent = "отвечайте как в жизни";
   progressBar.style.width = `${(current / questions.length) * 100}%`;
   backButton.disabled = current === 0;
 }

@@ -104,6 +104,7 @@ h3 {
 }
 
 .hero-grid div,
+.intro-grid article,
 .insight,
 .quality-card,
 .spectrum-card {
@@ -120,6 +121,7 @@ h3 {
 }
 
 .hero-grid span,
+.intro-grid span,
 .note,
 .deep-portrait p,
 .quality-card p,
@@ -151,6 +153,42 @@ h3 {
 .note {
   font-size: 0.95rem;
   margin: 22px 0 0;
+}
+
+.intro {
+  display: grid;
+  gap: 22px;
+}
+
+.intro-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.intro-grid strong {
+  display: block;
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+}
+
+.intro-list {
+  display: grid;
+  gap: 12px;
+}
+
+.intro-list p {
+  background: rgba(139, 77, 47, 0.07);
+  border: 1px solid rgba(139, 77, 47, 0.12);
+  border-radius: 18px;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0;
+  padding: 16px 18px;
+}
+
+.intro-list b {
+  color: var(--ink);
 }
 
 .quiz {
@@ -348,6 +386,7 @@ h3 {
   }
 
   .hero-grid,
+  .intro-grid,
   .answer-row,
   .quality-list,
   .insights {
