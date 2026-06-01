@@ -13,28 +13,28 @@
   <body>
     <main class="shell">
       <section id="start-screen" class="hero card">
-        <p class="eyebrow">Бесплатный самотест</p>
-        <h1>Карта человека по 100 простым вопросам</h1>
+        <p class="eyebrow">Бесплатный разбор</p>
+        <h1>100 вопросов, чтобы увидеть себя честнее</h1>
         <p class="lead">
-          Ответьте «да» или «нет», а в конце получите объемный профиль:
-          энергия, мышление, деньги, риск, лидерство, дисциплина, коммуникация,
-          эмоции, ценности и предпринимательский потенциал.
+          Отвечайте быстро: да или нет. В конце соберем большую карту:
+          какие качества у вас сильные, где есть боль, что вас двигает,
+          где вы себя тормозите и что стоит прокачать первым.
         </p>
         <div class="hero-grid" aria-label="Что покажет тест">
           <div>
-            <strong>10 спектров</strong>
-            <span>не ярлыки, а направления развития</span>
+            <strong>20 качеств</strong>
+            <span>каждое на шкале силы</span>
           </div>
           <div>
             <strong>100 вопросов</strong>
-            <span>без сложных шкал и регистрации</span>
+            <span>простые ответы без регистрации</span>
           </div>
           <div>
-            <strong>1 карта</strong>
-            <span>сильные стороны, риски и рекомендации</span>
+            <strong>Длинный вывод</strong>
+            <span>портрет, боли и зоны роста</span>
           </div>
         </div>
-        <button id="start-button" class="primary">Начать опрос</button>
+        <button id="start-button" class="primary">Начать</button>
         <p class="note">
           Это не медицинская диагностика и не замена работе со специалистом.
           Это инструмент для честной саморефлексии.
@@ -67,18 +67,27 @@
           <p class="eyebrow">Ваша карта</p>
           <h2 id="result-title"></h2>
           <p id="result-summary" class="lead"></p>
+          <div id="deep-portrait" class="deep-portrait"></div>
           <div class="result-actions">
             <button id="copy-button" class="primary">Скопировать результат</button>
             <button id="again-button" class="ghost">Пройти заново</button>
           </div>
         </div>
 
-        <div id="spectrum-list" class="spectrum-list"></div>
+        <div class="card">
+          <div class="section-head">
+            <p class="eyebrow">Главное</p>
+            <h3>20 качеств на шкале</h3>
+          </div>
+          <div id="quality-list" class="quality-list"></div>
+        </div>
 
         <div class="card">
-          <h3>Главные выводы</h3>
+          <h3>Что видно по ответам</h3>
           <div id="insights" class="insights"></div>
         </div>
+
+        <div id="spectrum-list" class="spectrum-list"></div>
       </section>
     </main>
 
