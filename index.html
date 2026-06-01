@@ -76,23 +76,36 @@
       </section>
 
       <section id="quiz-screen" class="card quiz hidden" aria-live="polite">
-        <div class="topbar">
-          <div>
-            <p class="eyebrow">Вопрос <span id="question-number">1</span> из 100</p>
-            <h2 id="question-text"></h2>
+        <div class="quiz-layout">
+          <div class="quiz-main">
+            <div class="topbar">
+              <div>
+                <p class="eyebrow">Вопрос <span id="question-number">1</span> из 100</p>
+                <h2 id="question-text"></h2>
+              </div>
+              <span id="question-area" class="pill"></span>
+            </div>
+            <div class="progress" aria-hidden="true">
+              <div id="progress-bar"></div>
+            </div>
+            <div class="answer-row">
+              <button class="answer yes" data-answer="yes">Да</button>
+              <button class="answer no" data-answer="no">Нет</button>
+            </div>
+            <div class="nav-row">
+              <button id="back-button" class="ghost">Назад</button>
+              <button id="restart-button" class="ghost">Начать заново</button>
+            </div>
           </div>
-          <span id="question-area" class="pill"></span>
-        </div>
-        <div class="progress" aria-hidden="true">
-          <div id="progress-bar"></div>
-        </div>
-        <div class="answer-row">
-          <button class="answer yes" data-answer="yes">Да</button>
-          <button class="answer no" data-answer="no">Нет</button>
-        </div>
-        <div class="nav-row">
-          <button id="back-button" class="ghost">Назад</button>
-          <button id="restart-button" class="ghost">Начать заново</button>
+          <aside class="live-panel" aria-label="Живой бизнес-срез">
+            <p class="eyebrow">Живой срез</p>
+            <h3>Шкалы двигаются по ответам</h3>
+            <p class="live-note">
+              Это предварительная картина. Чем больше ответов, тем точнее
+              становятся шкалы.
+            </p>
+            <div id="live-scales" class="live-scales"></div>
+          </aside>
         </div>
       </section>
 

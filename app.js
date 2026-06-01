@@ -82,115 +82,115 @@ const dimensions = {
 };
 
 const questions = [
-  { area: "energy", positive: true, text: "Я могу провести рабочий день без ощущения, что бизнес высосал из меня человека." },
-  { area: "energy", positive: false, text: "После недели продаж, поставщиков и сотрудников я становлюсь владельцем, к которому лучше не подходить." },
-  { area: "energy", positive: true, text: "У меня есть понятный способ восстановиться после тяжелого запуска, а не просто исчезнуть на пару дней." },
-  { area: "energy", positive: false, text: "Я продолжаю отвечать клиентам и команде, даже когда уже принимаю решения на голом раздражении." },
-  { area: "energy", positive: true, text: "В моем графике есть место для тела и сна, а не только для кассы, задач и срочных чатов." },
-  { area: "energy", positive: false, text: "Один токсичный клиент или сотрудник может забрать у меня больше сил, чем весь операционный день." },
-  { area: "energy", positive: true, text: "Я замечаю, когда моя усталость уже начинает портить управленческие решения." },
-  { area: "energy", positive: false, text: "Даже вечером без задач я мысленно продолжаю считать деньги, долги, заявки и чужие ошибки." },
-  { area: "energy", positive: true, text: "После провала, возврата или конфликта у меня есть ритуал быстро вернуться в рабочее состояние." },
-  { area: "energy", positive: false, text: "Я набираю обязательств так, будто мой ресурс безлимитный, а потом расплачиваюсь качеством решений." },
+  { area: "energy", positive: true, text: "Я выдерживаю день владельца так, чтобы к вечеру не ненавидеть клиентов, команду и собственный бизнес." },
+  { area: "energy", positive: false, text: "После плотной недели я становлюсь не стратегом, а раздраженным диспетчером пожаров." },
+  { area: "energy", positive: true, text: "После запуска, просадки или конфликта я умею быстро вернуть себя в рабочую форму, а не выпадать из игры." },
+  { area: "energy", positive: false, text: "Я продолжаю принимать решения, когда уже очевидно: сейчас мной рулит усталость, а не голова." },
+  { area: "energy", positive: true, text: "Я не приношу сон, тело и здоровье в жертву каждому срочному чату и каждому клиентскому капризу." },
+  { area: "energy", positive: false, text: "Один токсичный клиент способен съесть мой день так, будто он купил не продукт, а мою нервную систему." },
+  { area: "energy", positive: true, text: "Я ловлю момент, когда моя усталость уже начинает стоить бизнесу денег." },
+  { area: "energy", positive: false, text: "Даже в выходной мой мозг продолжает гонять кассу, долги, заявки и чужие косяки." },
+  { area: "energy", positive: true, text: "После отказа, возврата или срыва я возвращаюсь в строй без недельного внутреннего похоронного марша." },
+  { area: "energy", positive: false, text: "Я набираю обязательств как герой, а закрываю их потом как уставший человек без права на ошибку." },
 
-  { area: "discipline", positive: true, text: "Я отличаю действие, которое двигает деньги, от красивой занятости ради ощущения контроля." },
-  { area: "discipline", positive: false, text: "Я могу неделю полировать идею, не сделав ни одного звонка, оффера или теста спроса." },
-  { area: "discipline", positive: true, text: "У меня есть список ключевых показателей, которые я смотрю регулярно, а не когда уже больно." },
-  { area: "discipline", positive: false, text: "Важная задача по продажам может лежать до тех пор, пока касса не начнет давить." },
-  { area: "discipline", positive: true, text: "Я могу сделать неприятный, но нужный бизнес-шаг без мотивации: написать, позвонить, посчитать, отказать." },
-  { area: "discipline", positive: false, text: "Я распыляюсь между продуктом, контентом, командой, рекламой и новыми идеями, теряя главный рычаг роста." },
-  { area: "discipline", positive: true, text: "Большую цель по выручке я могу разложить на лиды, конверсию, средний чек и конкретные действия." },
-  { area: "discipline", positive: false, text: "В бизнесе у меня есть хвосты, которые все знают, но никто, включая меня, не закрывает." },
-  { area: "discipline", positive: true, text: "Я фиксирую результат недели фактами: деньги, заявки, сделки, отгрузки, выполненные решения." },
-  { area: "discipline", positive: false, text: "Себе как владельцу я разрешаю срывать сроки мягче, чем разрешил бы нормальному подрядчику." },
+  { area: "discipline", positive: true, text: "Я режу красивую занятость, если она не двигает деньги, продукт, команду или рынок." },
+  { area: "discipline", positive: false, text: "Я могу неделю “готовиться к продажам”, не сделав ни одного действия, которое может принести деньги." },
+  { area: "discipline", positive: true, text: "У меня есть цифры, которые я смотрю как владелец, а не как человек, надеющийся на чудо." },
+  { area: "discipline", positive: false, text: "Продажи становятся срочными только тогда, когда касса уже дышит мне в затылок." },
+  { area: "discipline", positive: true, text: "Я делаю неприятные действия владельца: звоню, считаю, отказываю, требую, закрываю хвосты." },
+  { area: "discipline", positive: false, text: "Я распыляюсь так уверенно, будто бизнес растет от количества открытых направлений." },
+  { area: "discipline", positive: true, text: "Цель по выручке для меня раскладывается на лиды, конверсию, средний чек и ежедневные действия." },
+  { area: "discipline", positive: false, text: "В моем бизнесе есть мертвые хвосты, которые уже стали мебелью, и я делаю вид, что это нормально." },
+  { area: "discipline", positive: true, text: "Неделю я оцениваю не по усталости, а по фактам: заявки, сделки, деньги, отгрузки, решения." },
+  { area: "discipline", positive: false, text: "Как владелец я иногда прощаю себе то, за что уволил бы подрядчика." },
 
-  { area: "thinking", positive: true, text: "Когда продажи падают, я сначала разбираю канал, оффер, цену и конверсию, а не ищу виноватых." },
-  { area: "thinking", positive: false, text: "Под давлением кассы я могу принять решение, которое тушит сегодня, но ломает систему завтра." },
-  { area: "thinking", positive: true, text: "Я умею отличить симптом бизнеса от причины: мало заявок, плохой оффер, слабый продукт или хаос в процессе." },
-  { area: "thinking", positive: false, text: "Мне трудно признать, что продукт, в который я влюблен, рынку может быть почти безразличен." },
-  { area: "thinking", positive: true, text: "Если цифры показывают, что гипотеза мертвая, я могу закрыть ее без траурной церемонии." },
-  { area: "thinking", positive: false, text: "Я иногда называю срочную суету стратегией, хотя просто бегаю вокруг пожара." },
-  { area: "thinking", positive: true, text: "Перед важным решением я смотрю глазами владельца, клиента, команды и денег одновременно." },
-  { area: "thinking", positive: false, text: "Когда данных много, я могу зависнуть и продолжать собирать информацию вместо решения." },
-  { area: "thinking", positive: true, text: "Я могу задать себе жесткий вопрос: это реально бизнес-решение или я защищаю свое эго." },
-  { area: "thinking", positive: false, text: "Уверенный совет со стороны иногда сбивает меня сильнее, чем собственные цифры и наблюдения." },
+  { area: "thinking", positive: true, text: "Когда продажи падают, я разбираю воронку, оффер и канал, а не устраиваю охоту на виноватых." },
+  { area: "thinking", positive: false, text: "Под давлением кассы я могу купить себе спокойствие решением, которое завтра станет новой проблемой." },
+  { area: "thinking", positive: true, text: "Я отличаю “мало заявок” от “плохой оффер”, “слабый канал” и “продукт не попал в боль”." },
+  { area: "thinking", positive: false, text: "Мне тяжело признать, что рынок не обязан любить продукт только потому, что я в него вложился." },
+  { area: "thinking", positive: true, text: "Если цифры хоронят гипотезу, я закрываю ее, а не строю мавзолей из оправданий." },
+  { area: "thinking", positive: false, text: "Я могу назвать пожар стратегией, если очень не хочется признать хаос." },
+  { area: "thinking", positive: true, text: "В важном решении я одновременно вижу владельца, клиента, команду, кассу и репутацию." },
+  { area: "thinking", positive: false, text: "Я могу утонуть в аналитике, чтобы не сделать один неприятный, но очевидный шаг." },
+  { area: "thinking", positive: true, text: "Я задаю себе вопрос: это решение для бизнеса или броня для моего эго." },
+  { area: "thinking", positive: false, text: "Чужой уверенный голос иногда перебивает мои собственные цифры." },
 
-  { area: "risk", positive: true, text: "Я могу вложить деньги в тест гипотезы с понятным лимитом потерь, не требуя гарантии." },
-  { area: "risk", positive: false, text: "Страх выглядеть глупо может остановить меня от публичного оффера сильнее, чем риск потерять деньги." },
-  { area: "risk", positive: true, text: "Провальный запуск для меня становится разбором данных, а не доказательством, что я не предприниматель." },
-  { area: "risk", positive: false, text: "Перед продажей нового продукта мне хочется еще чуть-чуть доработать, чтобы не встретиться с рынком." },
-  { area: "risk", positive: true, text: "Я могу запустить минимальную версию оффера, если она уже решает боль клиента." },
-  { area: "risk", positive: false, text: "Старый слабый канал продаж может казаться безопаснее, чем новый канал, где придется учиться заново." },
-  { area: "risk", positive: true, text: "Я предпочитаю быстрый тест на реальных деньгах долгим фантазиям о том, как рынок отреагирует." },
-  { area: "risk", positive: false, text: "Несколько отказов подряд могут заставить меня усомниться не в оффере, а в себе целиком." },
-  { area: "risk", positive: true, text: "Я умею ставить эксперимент так, чтобы риск был ограничен, а вывод был конкретным." },
-  { area: "risk", positive: false, text: "Я жду идеального момента для шага, хотя бизнес уже давно просит не идеал, а действие." },
+  { area: "risk", positive: true, text: "Я могу поставить деньги на тест гипотезы с лимитом потерь, а не ждать стопроцентной гарантии." },
+  { area: "risk", positive: false, text: "Страх выглядеть смешно может остановить мой оффер сильнее, чем риск потерять бюджет." },
+  { area: "risk", positive: true, text: "Провальный запуск для меня — это вскрытие данных, а не похороны самооценки." },
+  { area: "risk", positive: false, text: "Я докручиваю продукт не потому, что он слабый, а потому что боюсь встречи с рынком." },
+  { area: "risk", positive: true, text: "Я выпускаю минимально сильный оффер, если он уже решает боль, а не жду музейного идеала." },
+  { area: "risk", positive: false, text: "Старый канал продаж может быть дырявым, но я держусь за него, потому что новый потребует смелости." },
+  { area: "risk", positive: true, text: "Я предпочитаю быстрый тест на живых деньгах фантазиям в таблице и голове." },
+  { area: "risk", positive: false, text: "Несколько отказов подряд могут заставить меня усомниться не в оффере, а в себе как владельце." },
+  { area: "risk", positive: true, text: "Я ставлю эксперимент так, чтобы риск был ограничен, а вывод нельзя было спрятать." },
+  { area: "risk", positive: false, text: "Я жду идеального момента, хотя бизнесу нужен не момент, а владелец с решением." },
 
-  { area: "money", positive: true, text: "Я знаю, какой продукт приносит мне больше всего чистой прибыли, а не просто больше всего выручки." },
-  { area: "money", positive: false, text: "Когда клиент давит на скидку, я могу срезать цену быстрее, чем пересобрать ценность." },
-  { area: "money", positive: true, text: "Я понимаю маржу, повторные покупки, средний чек и конверсию по ключевому предложению." },
-  { area: "money", positive: false, text: "Я могу радоваться обороту, пока чистая прибыль на самом деле выглядит стыдно." },
-  { area: "money", positive: true, text: "Перед сделкой я ясно проговариваю цену, сроки, результат, границы и условия оплаты." },
-  { area: "money", positive: false, text: "Напомнить об оплате мне неприятнее, чем еще раз бесплатно помочь клиенту." },
-  { area: "money", positive: true, text: "Я знаю, сколько денег бизнес проживет, если продажи завтра просядут." },
-  { area: "money", positive: false, text: "Слабые финансовые цифры я могу воспринимать как личный позор, а не как управленческую информацию." },
-  { area: "money", positive: true, text: "Я могу назвать цену и выдержать паузу клиента, не предлагая скидку первым." },
-  { area: "money", positive: false, text: "Финансовую таблицу я иногда открываю только тогда, когда уже поздно делать спокойно." },
+  { area: "money", positive: true, text: "Я знаю, какой продукт кормит бизнес чистой прибылью, а какой просто красиво шумит выручкой." },
+  { area: "money", positive: false, text: "Клиент просит скидку — и я могу предать маржу быстрее, чем объяснить ценность." },
+  { area: "money", positive: true, text: "Я понимаю маржу, повторные покупки, средний чек и конверсию не в теории, а по своему продукту." },
+  { area: "money", positive: false, text: "Я могу радоваться обороту, пока прибыль тихо смеется надо мной из таблицы." },
+  { area: "money", positive: true, text: "До сделки я называю цену, сроки, границы, оплату и результат без мутных “потом разберемся”." },
+  { area: "money", positive: false, text: "Попросить оплату мне бывает неприятнее, чем бесплатно спасать клиента еще раз." },
+  { area: "money", positive: true, text: "Я знаю, сколько месяцев бизнес проживет, если завтра продажи ударятся об стену." },
+  { area: "money", positive: false, text: "Плохие цифры я иногда воспринимаю как личное унижение, а не как панель управления." },
+  { area: "money", positive: true, text: "Я называю цену и выдерживаю паузу, не бросая первым скидку как спасательный круг." },
+  { area: "money", positive: false, text: "Я открываю финансовую таблицу тогда, когда она уже выглядит как место преступления." },
 
-  { area: "leadership", positive: true, text: "Я могу поставить задачу так, чтобы человек понял результат, срок, критерии качества и зону ответственности." },
-  { area: "leadership", positive: false, text: "Я тащу на себе задачи команды, потому что объяснять, проверять и требовать кажется дольше." },
-  { area: "leadership", positive: true, text: "В хаосе я могу выбрать приоритет и сказать команде, что сейчас не обсуждается." },
-  { area: "leadership", positive: false, text: "Мне сложно убрать слабого человека с роли, если он хороший, старается или мне его жалко." },
-  { area: "leadership", positive: true, text: "Я могу провести неприятный разговор с сотрудником до того, как его ошибка станет нормой." },
-  { area: "leadership", positive: false, text: "Я терплю неэффективного партнера или подрядчика дольше, чем бизнес может себе позволить." },
-  { area: "leadership", positive: true, text: "Я строю не только продукт, но и систему: роли, регламенты, ритм встреч, контроль результата." },
-  { area: "leadership", positive: false, text: "Ответственность за людей иногда заставляет меня избегать решений, которые владелец обязан принять." },
-  { area: "leadership", positive: true, text: "Я могу признать, что проблема не в сотруднике, а в моем слабом процессе или неясной задаче." },
-  { area: "leadership", positive: false, text: "Мне легче молча исправить чужую работу, чем вернуть ее с четким требованием переделать." },
+  { area: "leadership", positive: true, text: "Я ставлю задачу так, что человеку ясно: результат, срок, стандарт и кто отвечает головой." },
+  { area: "leadership", positive: false, text: "Я делаю работу команды сам, а потом называю это ответственностью, хотя это плохое управление." },
+  { area: "leadership", positive: true, text: "В хаосе я могу жестко выбрать приоритет и закрыть лишний шум." },
+  { area: "leadership", positive: false, text: "Слабый человек на роли может тормозить бизнес, а я все еще берегу его чувства." },
+  { area: "leadership", positive: true, text: "Я провожу неприятный разговор до того, как чужой косяк становится корпоративной традицией." },
+  { area: "leadership", positive: false, text: "Я терплю слабого партнера или подрядчика дольше, чем это может оплатить бизнес." },
+  { area: "leadership", positive: true, text: "Я строю систему: роли, правила, ритм, контроль, а не героический цирк на себе." },
+  { area: "leadership", positive: false, text: "Ответственность за людей иногда делает меня мягким там, где владелец обязан быть ясным." },
+  { area: "leadership", positive: true, text: "Я могу признать: проблема не в “тупом сотруднике”, а в моей кривой постановке задачи." },
+  { area: "leadership", positive: false, text: "Мне легче молча переделать чужой мусор, чем вернуть его с требованием стандарта." },
 
-  { area: "communication", positive: true, text: "Я могу отказать клиенту в лишнем запросе, не разрушая отношения и не оправдываясь полчаса." },
-  { area: "communication", positive: false, text: "Я говорю “да” на чужие условия, а потом злюсь, что сам же отдал границы." },
-  { area: "communication", positive: true, text: "На возражение клиента я сначала уточняю реальную причину, а не начинаю защищаться." },
-  { area: "communication", positive: false, text: "Я могу делать вид, что с партнером все нормально, пока внутри уже накоплен список претензий." },
-  { area: "communication", positive: true, text: "Если мне нужен ресурс, контакт или помощь, я могу попросить прямо, без игры в самодостаточного героя." },
-  { area: "communication", positive: false, text: "После сложных переговоров я долго прокручиваю, где надо было жестче продавить или мягче ответить." },
-  { area: "communication", positive: true, text: "Я могу услышать правду от команды или клиента, не превращая обратную связь в нападение на себя." },
-  { area: "communication", positive: false, text: "Я часто формулирую ожидания уже после того, как человек сделал не то." },
-  { area: "communication", positive: true, text: "Я даю обратную связь по делу: что не так, какой стандарт, что должно измениться." },
-  { area: "communication", positive: false, text: "Я надеюсь, что команда сама догадается о стандарте, который я ни разу нормально не описал." },
+  { area: "communication", positive: true, text: "Я отказываю клиенту в лишнем запросе так, чтобы не продать ему свою шею вместе с продуктом." },
+  { area: "communication", positive: false, text: "Я соглашаюсь на чужие условия, а потом злюсь на человека за границы, которые сам сдал." },
+  { area: "communication", positive: true, text: "На возражение я копаю причину, а не начинаю защищать продукт как раненую гордость." },
+  { area: "communication", positive: false, text: "Я делаю вид, что с партнером все нормально, пока внутри уже готов обвинительный акт." },
+  { area: "communication", positive: true, text: "Я прошу ресурс, контакт или помощь прямо, без театра “я сам все вывезу”." },
+  { area: "communication", positive: false, text: "После переговоров я еще долго режиссирую в голове сцену, где ответил идеально." },
+  { area: "communication", positive: true, text: "Я выдерживаю неприятную правду от клиента или команды, не превращая ее в нападение на личность." },
+  { area: "communication", positive: false, text: "Я объясняю ожидания после провала, хотя должен был сделать это до старта." },
+  { area: "communication", positive: true, text: "Моя обратная связь звучит как стандарт и следующий шаг, а не как эмоциональная расправа." },
+  { area: "communication", positive: false, text: "Я хочу, чтобы команда читала мысли, которые я поленился превратить в правила." },
 
-  { area: "emotion", positive: true, text: "Я могу увидеть, что сейчас во мне говорит владелец, а не испуганный человек." },
-  { area: "emotion", positive: false, text: "Один резкий комментарий клиента может испортить мне день сильнее, чем он влияет на бизнес." },
-  { area: "emotion", positive: true, text: "Перед жестким ответом в чат я способен остановиться и не устраивать пожар из-за эмоции." },
-  { area: "emotion", positive: false, text: "Когда сделка срывается, я быстро ищу виноватого вместо холодного разбора причины." },
-  { area: "emotion", positive: true, text: "После отказа, возврата или конфликта я могу вернуться к работе без драматичного внутреннего сериала." },
-  { area: "emotion", positive: false, text: "Я коплю раздражение на команду или клиентов, а потом выдаю его резче, чем требовала ситуация." },
-  { area: "emotion", positive: true, text: "Я знаю свои триггеры владельца: скидки, контроль, критика, просрочки, чужая медлительность." },
-  { area: "emotion", positive: false, text: "Тревога о деньгах может парализовать меня именно тогда, когда нужно считать и действовать." },
-  { area: "emotion", positive: true, text: "Я могу попросить совет или поддержку, не превращая это в признание собственной слабости." },
-  { area: "emotion", positive: false, text: "Мой страх иногда выглядит как “стратегия”, хотя на деле я просто избегаю рынка, цифр или разговора." },
+  { area: "emotion", positive: true, text: "Я отличаю голос владельца от голоса испуганного человека, который хочет спрятаться." },
+  { area: "emotion", positive: false, text: "Один резкий комментарий клиента может украсть у меня день дороже, чем сама претензия." },
+  { area: "emotion", positive: true, text: "Перед жестким сообщением я умею остановить палец, пока он не устроил пожар." },
+  { area: "emotion", positive: false, text: "Когда сделка срывается, я быстрее ищу виноватого, чем разбираю причину." },
+  { area: "emotion", positive: true, text: "После отказа или возврата я возвращаюсь к работе без внутреннего сериала на три сезона." },
+  { area: "emotion", positive: false, text: "Я коплю раздражение, а потом выдаю команде не обратную связь, а накопленный яд." },
+  { area: "emotion", positive: true, text: "Я знаю свои кнопки владельца: скидки, критика, медлительность, просрочки, потеря контроля." },
+  { area: "emotion", positive: false, text: "Тревога о деньгах иногда выключает именно ту часть меня, которая должна считать и действовать." },
+  { area: "emotion", positive: true, text: "Я могу попросить совет, не превращая это в доказательство, что я слабый предприниматель." },
+  { area: "emotion", positive: false, text: "Мой страх умеет надевать костюм стратегии, чтобы я не шел к рынку, цифрам или разговору." },
 
-  { area: "values", positive: true, text: "Я понимаю, какие деньги не возьму, потому что цена сделки будет ударом по себе или репутации." },
-  { area: "values", positive: false, text: "Я могу гнаться за бизнес-моделью, которая модная, но вообще не моя по характеру." },
-  { area: "values", positive: true, text: "Я знаю, ради чего мне бизнес: свобода, деньги, влияние, игра, безопасность, статус или польза." },
-  { area: "values", positive: false, text: "Чужой быстрый рост может заставить меня копировать стратегию, которая не подходит моему продукту." },
-  { area: "values", positive: true, text: "Я могу отказаться от клиента, если понимаю, что он принесет деньги вместе с токсичностью и хаосом." },
-  { area: "values", positive: false, text: "Мне трудно отделить свое желание масштабироваться от желания доказать кому-то, что я не хуже." },
-  { area: "values", positive: true, text: "Я регулярно проверяю, этот бизнес все еще ведет меня туда, куда я хочу, или просто кормит инерцию." },
-  { area: "values", positive: false, text: "Я могу долго тащить направление, которое выглядит солидно, но внутри уже давно мертвое." },
-  { area: "values", positive: true, text: "Мне важно, чтобы продукт был не только прибыльным, но и таким, за который не стыдно." },
-  { area: "values", positive: false, text: "Я остаюсь в окружении или нише, где уже тесно, потому что страшно потерять привычную опору." },
+  { area: "values", positive: true, text: "Я понимаю, какие деньги не беру, потому что они потом обойдутся дороже репутации и нервов." },
+  { area: "values", positive: false, text: "Я могу влезть в модную бизнес-модель, которая выглядит богато, но мне внутренне чужая." },
+  { area: "values", positive: true, text: "Я честно знаю, ради чего строю бизнес: свобода, деньги, власть, игра, безопасность, статус или польза." },
+  { area: "values", positive: false, text: "Чужой быстрый рост может заставить меня копировать чужую стратегию как испуганного школьника." },
+  { area: "values", positive: true, text: "Я могу отказаться от клиента, который принесет деньги вместе с токсичностью, хаосом и грязным следом." },
+  { area: "values", positive: false, text: "Мое желание масштабироваться иногда похоже не на стратегию, а на попытку кому-то что-то доказать." },
+  { area: "values", positive: true, text: "Я проверяю, бизнес ведет меня к моей жизни или просто кормит машину, из которой страшно выйти." },
+  { area: "values", positive: false, text: "Я могу тащить солидное направление, которое внутри давно мертвое, потому что оно красиво выглядит." },
+  { area: "values", positive: true, text: "Я хочу прибыльный продукт, за который не стыдно смотреть клиенту в глаза." },
+  { area: "values", positive: false, text: "Я остаюсь в нише или окружении, где уже тесно, потому что привычная клетка кажется безопасной." },
 
-  { area: "entrepreneurship", positive: true, text: "У меня есть оффер, который можно объяснить за 20 секунд без длинной предыстории." },
-  { area: "entrepreneurship", positive: false, text: "Я больше думаю о бизнесе, чем разговариваю с реальными покупателями." },
-  { area: "entrepreneurship", positive: true, text: "У меня есть продукт или услуга с понятной маржой, в ценности которого я уверен." },
-  { area: "entrepreneurship", positive: false, text: "Я могу улучшать упаковку неделями, потому что боюсь увидеть честную реакцию рынка." },
-  { area: "entrepreneurship", positive: true, text: "Когда клиент не покупает, я разбираю: не та аудитория, слабый оффер, цена, доверие или момент." },
-  { area: "entrepreneurship", positive: false, text: "Я не продаю активнее, потому что сам до конца не верю, что продукт уже достаточно хорош." },
-  { area: "entrepreneurship", positive: true, text: "Я понимаю, из какого канала приходит самый качественный клиент, а не просто радуюсь любым заявкам." },
-  { area: "entrepreneurship", positive: false, text: "Мне комфортнее быть занятым внутри бизнеса, чем выйти наружу и добывать клиентов." },
-  { area: "entrepreneurship", positive: true, text: "Если рынок молчит, я меняю оффер, аудиторию, креатив или канал, а не обвиняю клиентов." },
-  { area: "entrepreneurship", positive: false, text: "Когда нет ясного плана продаж на ближайшие недели, я скорее тревожусь, чем собираю конкретные действия." }
+  { area: "entrepreneurship", positive: true, text: "Мой оффер можно объяснить за 20 секунд так, чтобы клиент понял боль, результат и почему сейчас." },
+  { area: "entrepreneurship", positive: false, text: "Я больше думаю о покупателях, чем реально разговариваю с людьми, которые могут заплатить." },
+  { area: "entrepreneurship", positive: true, text: "У меня есть продукт с понятной маржой, в ценности которого я не мямлю даже самому себе." },
+  { area: "entrepreneurship", positive: false, text: "Я улучшаю упаковку, потому что боюсь честного ответа рынка, а не потому что она правда слабая." },
+  { area: "entrepreneurship", positive: true, text: "Если клиент не покупает, я разбираю аудиторию, оффер, цену, доверие и момент, а не обижаюсь." },
+  { area: "entrepreneurship", positive: false, text: "Я не продаю активнее, потому что сам еще не до конца купил собственный продукт." },
+  { area: "entrepreneurship", positive: true, text: "Я знаю, какой канал дает качественного клиента, а какой просто кормит меня шумом заявок." },
+  { area: "entrepreneurship", positive: false, text: "Я прячусь в операционке, потому что добывать клиентов снаружи страшнее, чем быть занятым внутри." },
+  { area: "entrepreneurship", positive: true, text: "Когда рынок молчит, я меняю оффер, аудиторию, креатив или канал, а не читаю морали клиентам." },
+  { area: "entrepreneurship", positive: false, text: "Без ясного плана продаж я тревожусь как владелец, но действую как человек, ждущий погоды." }
 ];
 
 const qualityDefinitions = {
@@ -478,6 +478,7 @@ const businessDefinitions = {
 
 let current = 0;
 let answers = [];
+let liveScores = {};
 
 const startScreen = document.querySelector("#start-screen");
 const introScreen = document.querySelector("#intro-screen");
@@ -488,6 +489,7 @@ const questionText = document.querySelector("#question-text");
 const questionArea = document.querySelector("#question-area");
 const progressBar = document.querySelector("#progress-bar");
 const backButton = document.querySelector("#back-button");
+const liveScales = document.querySelector("#live-scales");
 const spectrumList = document.querySelector("#spectrum-list");
 const qualityList = document.querySelector("#quality-list");
 const businessList = document.querySelector("#business-list");
@@ -527,6 +529,7 @@ function startQuiz() {
   introScreen.classList.add("hidden");
   resultScreen.classList.add("hidden");
   quizScreen.classList.remove("hidden");
+  liveScores = {};
   renderQuestion();
 }
 
@@ -543,9 +546,11 @@ function renderQuestion() {
   questionArea.textContent = "отвечайте как в жизни";
   progressBar.style.width = `${(current / questions.length) * 100}%`;
   backButton.disabled = current === 0;
+  renderLiveScales();
 }
 
 function answerQuestion(value) {
+  liveScores = getLiveBusinessScores();
   answers[current] = value;
   current += 1;
 
@@ -559,6 +564,7 @@ function answerQuestion(value) {
 
 function goBack() {
   if (current === 0) return;
+  liveScores = getLiveBusinessScores();
   current -= 1;
   renderQuestion();
 }
@@ -671,6 +677,70 @@ function calculateDirectScore(indexes) {
   }, 0);
 
   return Math.round((points / indexes.length) * 100);
+}
+
+function calculateLiveDirectScore(indexes) {
+  const answeredIndexes = indexes.filter((index) => answers[index] !== undefined);
+  if (!answeredIndexes.length) {
+    return { score: 50, answered: 0, total: indexes.length };
+  }
+
+  const points = answeredIndexes.reduce((sum, index) => {
+    const question = questions[index];
+    return sum + (answers[index] === question.positive ? 1 : 0);
+  }, 0);
+
+  return {
+    score: Math.round((points / answeredIndexes.length) * 100),
+    answered: answeredIndexes.length,
+    total: indexes.length
+  };
+}
+
+function getLiveBusinessScores() {
+  return Object.fromEntries(
+    Object.entries(businessDefinitions).map(([key, item]) => {
+      const live = calculateLiveDirectScore(item.indexes);
+      return [key, live.score];
+    })
+  );
+}
+
+function renderLiveScales() {
+  if (!liveScales) return;
+
+  liveScales.innerHTML = Object.entries(businessDefinitions).map(([key, item]) => {
+    const live = calculateLiveDirectScore(item.indexes);
+    const previous = liveScores[key];
+    const trend = previous === undefined || live.answered === 0
+      ? "neutral"
+      : live.score > previous
+        ? "up"
+        : live.score < previous
+          ? "down"
+          : "neutral";
+
+    return renderLiveScale(item.title, live, trend);
+  }).join("");
+}
+
+function renderLiveScale(title, live, trend) {
+  const trendLabel = {
+    up: "растет",
+    down: "падает",
+    neutral: "держится"
+  }[trend];
+
+  return `
+    <article class="live-scale ${trend}">
+      <div class="live-scale-top">
+        <strong>${title}</strong>
+        <span>${live.score}% · ${trendLabel}</span>
+      </div>
+      <div class="bar" aria-hidden="true"><div class="fill" style="width: ${live.score}%"></div></div>
+      <small>${live.answered} из ${live.total} ответов в этой шкале</small>
+    </article>
+  `;
 }
 
 function buildTitle(topQualities) {
