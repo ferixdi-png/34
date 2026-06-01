@@ -126,27 +126,27 @@ const questions = [
   { area: "risk", positive: true, text: "Я умею рисковать так, чтобы проверить себя, но не разрушить фундамент." },
   { area: "risk", positive: false, text: "Иногда я будто жду, что кто-то взрослый разрешит мне быть смелее." },
 
-  { area: "money", positive: true, text: "Когда речь заходит о цене моей работы, я могу говорить без лишнего сжатия в груди." },
-  { area: "money", positive: false, text: "Назвав цену, я почти автоматически хочу добавить скидку, бонус или оправдание." },
-  { area: "money", positive: true, text: "Я понимаю, что именно становится легче, лучше или прибыльнее у человека после моей пользы." },
-  { area: "money", positive: false, text: "Деньги могут включать во мне смесь стыда, тревоги и желания поскорее закрыть тему." },
-  { area: "money", positive: true, text: "Обсуждать оплату, сроки и условия до старта для меня нормально." },
-  { area: "money", positive: false, text: "Напомнить об оплате мне бывает неловко, будто я прошу что-то лишнее." },
-  { area: "money", positive: true, text: "Я стараюсь смотреть не только на доход, но и на расходы, маржу и реальный остаток." },
-  { area: "money", positive: false, text: "Сумма на счете иногда влияет на то, насколько ценным человеком я себя чувствую." },
-  { area: "money", positive: true, text: "Я могу воспринимать продажу как честное предложение, а не как попытку впарить." },
-  { area: "money", positive: false, text: "Финансовые решения я могу отодвигать до момента, когда они сами стучат в дверь." },
+  { area: "money", positive: true, text: "Если у меня есть сильный продукт, я могу уверенно назвать цену и не сжаться после паузы клиента." },
+  { area: "money", positive: false, text: "Даже понимая ценность товара, я могу первым делом думать не о прибыли, а о том, как бы не показаться дорогим." },
+  { area: "money", positive: true, text: "Я понимаю, где в моем деле деньги: маржа, повторные покупки, средний чек, конверсия или скорость оборота." },
+  { area: "money", positive: false, text: "Когда клиент просит скидку, я иногда уступаю быстрее, чем успеваю защитить ценность предложения." },
+  { area: "money", positive: true, text: "До старта работы я могу спокойно проговорить оплату, сроки, результат и что не входит в договоренность." },
+  { area: "money", positive: false, text: "Напомнить клиенту об оплате мне бывает неловко, даже если работа уже сделана честно." },
+  { area: "money", positive: true, text: "Я регулярно смотрю не только на выручку, но и на чистую прибыль после расходов, времени и нервов." },
+  { area: "money", positive: false, text: "Если продажи просели, я могу сначала принять это на личный счет, а не разобрать воронку по фактам." },
+  { area: "money", positive: true, text: "Я могу продавать через пользу и конкретный результат, а не через давление, суету или манипуляцию." },
+  { area: "money", positive: false, text: "Финансовые цифры бизнеса я иногда откладываю, потому что боюсь увидеть реальную картину." },
 
-  { area: "leadership", positive: true, text: "Когда все смотрят друг на друга, я могу первым обозначить следующий шаг." },
-  { area: "leadership", positive: false, text: "Мне проще самому закрыть задачу ночью, чем спокойно передать ее человеку днем." },
-  { area: "leadership", positive: true, text: "Ко мне могут прийти не только за помощью, но и за направлением: что делать дальше." },
-  { area: "leadership", positive: false, text: "Роль ведущего иногда пугает меня тем, что потом придется отвечать за ожидания людей." },
-  { area: "leadership", positive: true, text: "Если разговор важный, я могу сказать прямо, даже когда голос внутри просит смягчить все до нуля." },
-  { area: "leadership", positive: false, text: "Конфликт может заставить меня отойти назад, даже если внутри я понимаю свою позицию." },
-  { area: "leadership", positive: true, text: "Мне интересно создавать вокруг идеи команду, процесс или движуху, а не только делать кусок самому." },
-  { area: "leadership", positive: false, text: "Ответственность за других иногда ощущается как рюкзак, который мне надели без спроса." },
-  { area: "leadership", positive: true, text: "Я могу признать ошибку и не почувствовать, что из-за этого меня стерли как авторитет." },
-  { area: "leadership", positive: false, text: "Просить человека о конкретном результате мне бывает сложнее, чем переделать за него." },
+  { area: "leadership", positive: true, text: "В команде я могу быстро обозначить, кто за что отвечает и какой результат нужен на выходе." },
+  { area: "leadership", positive: false, text: "Мне проще самому закрыть задачу ночью, чем нормально поставить ее человеку днем." },
+  { area: "leadership", positive: true, text: "Люди могут прийти ко мне не только за помощью, но и за приоритетом: что сейчас главное." },
+  { area: "leadership", positive: false, text: "Делегирование пугает меня тем, что результат будет не таким, как если бы я сделал сам." },
+  { area: "leadership", positive: true, text: "Если сотрудник или партнер буксует, я могу обсудить это прямо, не превращая разговор в драму." },
+  { area: "leadership", positive: false, text: "Конфликт с человеком в деле может заставить меня терпеть проблему дольше, чем полезно бизнесу." },
+  { area: "leadership", positive: true, text: "Мне интересно строить не только продукт, но и систему: роли, процессы, правила, ритм команды." },
+  { area: "leadership", positive: false, text: "Ответственность за людей иногда кажется мне тяжелее, чем ответственность за сам продукт." },
+  { area: "leadership", positive: true, text: "Я могу признать управленческую ошибку и быстро поправить процесс, а не защищать свое эго." },
+  { area: "leadership", positive: false, text: "Попросить человека переделать плохо сделанное мне бывает сложнее, чем молча исправить самому." },
 
   { area: "communication", positive: true, text: "Я могу отказать коротко и спокойно, не превращая это в судебную речь." },
   { area: "communication", positive: false, text: "Слово “да” иногда выходит из меня быстрее, чем я успеваю спросить себя, хочу ли я." },
@@ -181,16 +181,16 @@ const questions = [
   { area: "values", positive: true, text: "Мне важно, чтобы дело давало не только деньги или статус, но и ощущение смысла." },
   { area: "values", positive: false, text: "Я способен слишком долго оставаться в среде, где внутри уже давно тесно." },
 
-  { area: "entrepreneurship", positive: true, text: "Я замечаю чужие неудобства и думаю: здесь можно сделать решение, за которое заплатят." },
-  { area: "entrepreneurship", positive: false, text: "Идея собственного дохода иногда кажется мне чем-то для других людей, не для меня." },
-  { area: "entrepreneurship", positive: true, text: "Мне интересно проверять мысль на живых людях, а не только полировать ее в голове." },
-  { area: "entrepreneurship", positive: false, text: "Я могу так долго улучшать черновик, что момент показать его проходит мимо." },
-  { area: "entrepreneurship", positive: true, text: "Отказ клиента я могу принять как информацию о рынке, а не как удар по личности." },
-  { area: "entrepreneurship", positive: false, text: "Продавать неидеальное мне трудно, даже если человеку уже может стать полезнее." },
-  { area: "entrepreneurship", positive: true, text: "Думая о проекте, я вижу не только продукт, но и клиента, канал, повторяемость и деньги." },
-  { area: "entrepreneurship", positive: false, text: "Мне спокойнее выполнять понятную роль, чем самому выходить искать возможность." },
-  { area: "entrepreneurship", positive: true, text: "Если рынок молчит, я готов менять гипотезу, а не обижаться на людей за тишину." },
-  { area: "entrepreneurship", positive: false, text: "Когда планы и деньги становятся туманными, желание пробовать у меня быстро проседает." }
+  { area: "entrepreneurship", positive: true, text: "Я умею заметить боль клиента и превратить ее не просто в идею, а в понятный оффер." },
+  { area: "entrepreneurship", positive: false, text: "Мне легче мечтать о бизнесе в голове, чем выйти и спросить у людей, купят ли они это." },
+  { area: "entrepreneurship", positive: true, text: "Если у меня есть топовый товар с хорошей маржой, я понимаю, как усилить его упаковку и продажи." },
+  { area: "entrepreneurship", positive: false, text: "Я могу долго улучшать продукт, вместо того чтобы проверить спрос на реальных клиентах." },
+  { area: "entrepreneurship", positive: true, text: "Отказ клиента я могу разобрать как сигнал: цена, доверие, оффер, аудитория или момент." },
+  { area: "entrepreneurship", positive: false, text: "Мне трудно продавать продукт, пока он не кажется мне почти идеальным." },
+  { area: "entrepreneurship", positive: true, text: "Думая о проекте, я вижу связку: кому продаем, зачем покупают, где берем трафик и что зарабатываем." },
+  { area: "entrepreneurship", positive: false, text: "Мне спокойнее выполнять понятную роль, чем самому искать клиентов, партнеров и точки роста." },
+  { area: "entrepreneurship", positive: true, text: "Если связка не взлетела, я готов менять гипотезу, креатив, аудиторию или предложение без обиды на рынок." },
+  { area: "entrepreneurship", positive: false, text: "Когда в бизнесе появляется туман по деньгам и плану, я могу потерять драйв вместо того, чтобы собрать цифры." }
 ];
 
 const qualityDefinitions = {
@@ -419,6 +419,63 @@ const qualitySignals = {
   creativity: [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 };
 
+const businessDefinitions = {
+  offer: {
+    title: "Оффер и продукт",
+    indexes: [90, 92, 93, 94, 95, 96, 98],
+    weights: { entrepreneurship: 0.65, thinking: 0.2, risk: 0.15 },
+    lowText: "Идея может быть живой, но упаковка, проверка спроса или уверенность в продукте пока проседают. Есть риск долго улучшать то, что еще не доказало ценность рынку.",
+    midText: "Вы видите продукт и пользу, но офферу нужна большая конкретика: кому, какую боль закрывает, почему сейчас и чем вы отличаетесь.",
+    highText: "Вы хорошо чувствуете связку продукт-боль-клиент. Это сильная база для упаковки, тестов, продаж и масштабирования.",
+    action: "Сформулируйте один главный оффер в формате: для кого, какая боль, какой результат, почему стоит купить сейчас."
+  },
+  sales: {
+    title: "Продажи и цена",
+    indexes: [40, 41, 42, 43, 44, 45, 48, 94],
+    weights: { money: 0.55, entrepreneurship: 0.25, communication: 0.2 },
+    lowText: "Продажи могут упираться не только в рынок, но и во внутренний зажим: страшно назвать цену, защитить ценность, выдержать паузу клиента или отказ.",
+    midText: "Вы можете продавать через пользу, но в переговорах еще могут включаться скидки, оправдания или желание быть удобным.",
+    highText: "Вы способны говорить о цене и ценности достаточно спокойно. Это дает шанс продавать без давления и без внутреннего стыда.",
+    action: "Подготовьте 3 фразы: цена, почему она такая, что входит и что не входит."
+  },
+  finance: {
+    title: "Финансовая трезвость",
+    indexes: [42, 46, 47, 49, 92, 96, 99],
+    weights: { money: 0.7, thinking: 0.2, discipline: 0.1 },
+    lowText: "Цифры могут откладываться, пока не станут болезненными. Тогда бизнес ощущается как туман: вроде есть движение, но непонятно, что реально остается.",
+    midText: "Вы уже смотрите на деньги, но финансовая картина может быть не до конца регулярной: выручка видна лучше, чем прибыль, маржа и стоимость усилий.",
+    highText: "Вы умеете смотреть на бизнес через цифры, а не только через эмоции. Это помогает быстрее видеть слабые места и не путать оборот с результатом.",
+    action: "Раз в неделю фиксируйте выручку, расходы, чистую прибыль, средний чек и один главный вывод."
+  },
+  team: {
+    title: "Команда и делегирование",
+    indexes: [50, 51, 52, 53, 54, 55, 56, 57, 59],
+    weights: { leadership: 0.65, communication: 0.25, discipline: 0.1 },
+    lowText: "Вы можете тащить слишком много сами: проще переделать, чем поставить задачу, объяснить стандарт и попросить результат. Это ограничивает масштаб.",
+    midText: "Командность есть, но делегирование может держаться на доверии к конкретным людям, а не на ясных ролях, процессах и критериях результата.",
+    highText: "Вы способны строить работу через людей, роли и понятные ожидания. Это важный переход от самозанятости к системе.",
+    action: "Для одной задачи пропишите результат, срок, критерии качества и кто принимает финальное решение."
+  },
+  focus: {
+    title: "Фокус и исполнение",
+    indexes: [10, 12, 13, 14, 15, 16, 18, 19, 93],
+    weights: { discipline: 0.55, thinking: 0.25, entrepreneurship: 0.2 },
+    lowText: "Может быть много идей, задач и направлений, но мало закрытых циклов. Бизнесу в таком режиме сложно накапливать силу.",
+    midText: "Вы умеете собираться, но фокус может плавать между срочным, интересным и действительно прибыльным.",
+    highText: "Вы способны превращать приоритет в действие и доводить до измеримого результата. Это качество напрямую влияет на рост.",
+    action: "Выберите один главный рычаг на неделю: продажи, продукт, трафик, команда или финансы. Остальное вторично."
+  },
+  market: {
+    title: "Рынок и гипотезы",
+    indexes: [30, 32, 34, 36, 37, 90, 91, 93, 94, 98],
+    weights: { entrepreneurship: 0.55, risk: 0.3, thinking: 0.15 },
+    lowText: "Рынок может восприниматься слишком лично: молчание, отказ или слабая конверсия легко бьют по уверенности вместо того, чтобы стать данными.",
+    midText: "Вы готовы проверять идеи, но иногда задерживаетесь в голове, упаковке или ожидании более безопасного момента.",
+    highText: "Вы умеете относиться к рынку как к системе обратной связи. Это предпринимательская зрелость: тестировать, менять и идти дальше.",
+    action: "Проверьте одну гипотезу на 5-10 людях: проблема, оффер, цена или причина отказа."
+  }
+};
+
 let current = 0;
 let answers = [];
 
@@ -433,6 +490,7 @@ const progressBar = document.querySelector("#progress-bar");
 const backButton = document.querySelector("#back-button");
 const spectrumList = document.querySelector("#spectrum-list");
 const qualityList = document.querySelector("#quality-list");
+const businessList = document.querySelector("#business-list");
 const insights = document.querySelector("#insights");
 const resultTitle = document.querySelector("#result-title");
 const resultSummary = document.querySelector("#result-summary");
@@ -525,6 +583,7 @@ function showResult() {
     .join("");
 
   qualityList.innerHTML = result.qualities.map(renderQuality).join("");
+  businessList.innerHTML = result.business.map(renderBusiness).join("");
   spectrumList.innerHTML = result.spectrums.map(renderSpectrum).join("");
   insights.innerHTML = [
     renderInsight("Сильная опора", `${qualityTop[0].title}: ${qualityTop[0].text}`),
@@ -565,8 +624,20 @@ function calculateResult() {
     };
   });
 
+  const business = Object.entries(businessDefinitions).map(([key, item]) => {
+    const weightedScore = calculateWeightedScore(item.weights, spectrums);
+    const directScore = calculateDirectScore(item.indexes);
+    const score = Math.round(directScore * 0.75 + weightedScore * 0.25);
+    return {
+      key,
+      score,
+      ...item,
+      text: pickText(item, score)
+    };
+  });
+
   const average = Math.round(spectrums.reduce((sum, item) => sum + item.score, 0) / spectrums.length);
-  return { average, spectrums, qualities, createdAt: new Date().toISOString() };
+  return { average, spectrums, qualities, business, createdAt: new Date().toISOString() };
 }
 
 function pickText(dimension, score) {
@@ -587,6 +658,10 @@ function calculateWeightedScore(weights, spectrums) {
 
 function calculateDirectQualityScore(key) {
   const indexes = qualitySignals[key] || [];
+  return calculateDirectScore(indexes);
+}
+
+function calculateDirectScore(indexes) {
   if (!indexes.length) return 0;
 
   const points = indexes.reduce((sum, index) => {
@@ -681,6 +756,23 @@ function renderQuality(item) {
   `;
 }
 
+function renderBusiness(item) {
+  return `
+    <article class="business-card">
+      <div class="quality-top">
+        <div>
+          <h4>${item.title}</h4>
+          <span>практический бизнес-показатель</span>
+        </div>
+        <strong>${item.score}%</strong>
+      </div>
+      <div class="bar" aria-hidden="true"><div class="fill" style="width: ${item.score}%"></div></div>
+      <p>${item.text}</p>
+      <p class="growth"><b>Что сделать:</b> ${item.action}</p>
+    </article>
+  `;
+}
+
 function renderInsight(title, text) {
   return `
     <div class="insight">
@@ -697,6 +789,9 @@ async function copyResult() {
     "",
     "20 качеств:",
     ...result.qualities.map((item) => `${item.title}: ${item.score}% — ${item.text}`),
+    "",
+    "Бизнес-срез:",
+    ...result.business.map((item) => `${item.title}: ${item.score}% — ${item.text} Что сделать: ${item.action}`),
     "",
     "Короткий вывод:",
     resultSummary.textContent,

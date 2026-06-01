@@ -105,6 +105,7 @@ h3 {
 
 .hero-grid div,
 .intro-grid article,
+.business-card,
 .insight,
 .quality-card,
 .spectrum-card {
@@ -123,6 +124,7 @@ h3 {
 .hero-grid span,
 .intro-grid span,
 .note,
+.business-card p,
 .deep-portrait p,
 .quality-card p,
 .spectrum-card p,
@@ -288,7 +290,17 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.business-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .quality-card {
+  box-shadow: none;
+}
+
+.business-card {
   box-shadow: none;
 }
 
@@ -388,6 +400,7 @@ h3 {
   .hero-grid,
   .intro-grid,
   .answer-row,
+  .business-list,
   .quality-list,
   .insights {
     grid-template-columns: 1fr;
